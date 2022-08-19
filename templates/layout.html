@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block encabezado %}Aprendiendo Flask{% endblock encabezado %}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='normalize.css')}}">
+    <link rel="icon" href="{{url_for('static', filename='flask.png')}}">
+</head>
+
+<body>
+    <div class="Cabezera">
+        <h1>{% block titulo %}{% endblock titulo %} | Mini - Proyecto con Flask</h1>
+
+        {% include 'enlaces.html' %}
+    </div>
+
+    <div class="Contenido">
+        {% block contenido %}{% endblock contenido %}
+    </div>
+
+    <div class="Pie-de-pagina">
+        <footer>
+            <p>
+                Mini - Proyecto con Python y Flask | Todos los derechos reservados &copy; | {{ahora.year}}
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+

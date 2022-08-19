@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(220, 220, 220);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: rgb(39, 71, 58);
+    width: 97.2%;
+    min-height: 930px;
+    padding: 25px;
+    padding-left: 25px;
+    margin: 0 auto;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 5px;
+  }
+
+  .Cabezera {
+    width: 1255px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 2px;
+    text-align: center;
+    background-color: rgb(39, 71, 58);
+    border: 1px solid rgb(42, 85, 68);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(128, 128, 128);
+}
+  
+  .Contenido {
+    background-color: rgb(39, 71, 58);
+    border-radius: 5px;
+    border: 1px solid rgb(42, 85, 68);
+    box-shadow: 0px 0px 10px rgb(128, 128, 128);
+    text-align: center;
+    width: 1230px;
+    min-height: 930px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.formulario {
+    width: 400px;
+    min-width: 200px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 10px;
+}
+
+
+.formulario, h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: rgb(245, 245, 245);
+}
+
+.formulario, label {
+    color: rgb(245, 245, 245);
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    height: 20px;
+    padding: 5px;
+    padding-left: 1rem;
+}
+
+.formulario, input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 25rem;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.formulario, .boton {
+    margin-top: 1rem;
+    color: rgb(245, 245, 245);
+}
+
+
+  .Pie-de-pagina { 
+    width: 1255px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: rgb(39, 71, 58);
+    border: 1px solid rgb(39, 71, 58);
+    color: rgb(43, 169, 119);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(128, 128, 128); 
+}
+
+.Cabezera nav {
+    width: 1250px;
+    height: 40px;
+    margin: 0px auto;
+}
+
+.Cabezera nav, ul, li {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    float: left;
+}
+
+.Cabezera nav, ul, li:first-child {
+    padding-left: 9rem;
+}
+
+.Cabezera nav, ul, li, a {
+    color: rgb(220, 220, 220);
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.boton-editar {
+    padding: 10px;
+    background: rgb(43, 169, 119);
+    color: rgb(220, 220, 220);
+    border: 1px solid rgb(0, 0, 0);
+    display: block;
+    margin-top: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.boton-eliminar {
+    padding: 10px;
+    background: rgb(155, 66, 66);
+    color: rgb(220, 220, 220);
+    border: 1px solid rgb(0, 0, 0);
+    display: block;
+    margin-top: 15px;
+    width: 100px;
+    text-align: center;
+}

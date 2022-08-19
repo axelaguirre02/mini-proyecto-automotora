@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block encabezado %}{{ super() }}{% endblock encabezado %}
+
+{% block titulo %}Coches{% endblock titulo %}
+
+{% block contenido %}
+
+    {% include 'mensaje.html' %}
+
+    <h3>Lista de coches</h3>
+
+    {% for coche in coches %}
+        <ol>
+            <li>
+                <a href="{{url_for('coche', id=coche.0)}}">{{coche.1}}</a> 
+                <br>
+                {{coche.2}}
+            </li>
+        </ol>
+        <p>
+            <a href="{{url_for('editar_coche', id=coche.0)}}" class='boton-editar'>Editar</a>
+            <a href="{{url_for('borrar_coche', id=coche.0)}}" class='boton-eliminar'>Borrar</a>
+        </p>
+    {% endfor %}
+
+{% endblock contenido %}

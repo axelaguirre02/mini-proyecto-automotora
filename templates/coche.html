@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block encabezado %}{{ super() }}{% endblock encabezado %}
+
+{% block titulo %}{{coche.1}} {{coche.2}}{% endblock titulo %}
+
+{% block contenido %}
+    <h3>Informacion del coche</h3>
+    Valor: ${{coche.3}} <br>
+    Ciudad: {{coche.4}}
+{% endblock contenido %}

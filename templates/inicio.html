@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block encabezado %}{{ super() }}{% endblock encabezado %}
+
+{% block titulo %}Inicio{% endblock titulo %}
+
+{% block contenido %}
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, corporis soluta tempore repellendus praesentium perferendis, quis iste voluptatum odio modi distinctio unde, voluptas ipsa quia cumque qui earum autem consectetur?</p>
+
+    {% include 'mensaje.html' %}
+    
+{% endblock contenido %}
+
